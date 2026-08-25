@@ -1,0 +1,7 @@
+[tool.poetry]
+name = "parcelpilot-support-agent"
+version = "1.0.0"
+description = "ParcelPilot Internal Support Operations AI Agent"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.14"
