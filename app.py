@@ -17,7 +17,7 @@ st.set_page_config(
     page_title="ParcelPilot Support Agent",
     page_icon="📦",
     layout="wide",
-    initial_sidebar_state="collapsed",
+    initial_sidebar_state="expanded",
 )
 
 # --- Custom CSS for a polished, modern look ---
@@ -33,7 +33,7 @@ st.markdown("""
 /* Hide default streamlit header/footer */
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
-header {visibility: hidden;}
+header [data-testid="stDecoration"] {display: none;}
 
 /* Sidebar styling */
 section[data-testid="stSidebar"] {
