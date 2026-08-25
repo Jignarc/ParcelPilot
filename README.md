@@ -27,8 +27,7 @@ streamlit run app.py
 The app will be available at `http://localhost:8501`.
 
 ### Hosted Application
-> **[Live Demo →]([https://parcelpilot-support-agent.streamlit.app](https://parcelpilot-supporting-agent.streamlit.app/#parcel-pilot-support-agent))**
-
+> **https://parcelpilot-supporting-agent.streamlit.app/#parcel-pilot-support-agent**
 ---
 
 ## Architecture Note
